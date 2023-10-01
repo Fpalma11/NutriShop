@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html" class="logo nav-link">NutriShop</a>
+    </div>
+    
+    <body>
+        <div class="header">
+        <h1>Contact Us</h1>
+    </div>
+
+    <div class="form-container">
+        <!-- Form section -->
+        <div class="form-section">
+            <h2>Contact Form</h2>
+            <p>Fill out the form below to get in touch with us:</p>
+        </div>
+
+        <!-- Contact Form -->
+        <section class="section">
+            <article>
+                <header>
+                    <h2>Information request</h2>  
+                </header>
+                <form action="cliente/registro">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td>User</td>
+                                <td><input type="email" name="user" placeholder="email@gmail.com" Size="25" /></td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td><input type="password" name="password" Size="10" /></td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td><input type="text" name="name" Size="10" placeholder="Type your name" /></td>
+                            </tr>
+                           
+                            <tr>
+                                <td>Picture</td>
+                                <td><input type="file" name="picture" accept="image/*" /></td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td><input type="tel" name="phone" size="8" /></td>
+                            </tr>
+                           
+                            <tr>
+                                <td>Satisfaction Level</td>
+                                <td>min 0<input type="range" min="0" max="10" /> 10 max</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td><textarea name="address" rows="4" col="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Education</td>
+                                <td><select name="education" size="5">
+                                        <option value="0">Incomplete primary</option>
+                                        <option value="1">Primary complete</option>
+                                        <option value="2">Complete Highschool</option>
+                                        <option value="3">Incomplete College</option>
+                                        <option value="4">Complete College</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>Actions</td>
+                                <td><input type="reset" value="Delete"/>
+                                    <input type="submit" value="Send"/>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+                
+            </article>
+            
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2023 NutriShop
+    </div>
+    </body>
+</html>
